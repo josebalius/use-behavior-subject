@@ -1,0 +1,37 @@
+{
+  "name": "use-behavior-subject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josebalius/use-behavior-subject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josebalius/use-behavior-subject/issues"
+  },
+  "homepage": "https://github.com/josebalius/use-behavior-subject#readme",
+  "devDependencies": {
+    "prettier": "^1.19.1",
+    "tslint": "^6.0.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.19",
+    "react": "^16.12.0",
+    "rxjs": "^6.5.4"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
