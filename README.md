@@ -14,7 +14,7 @@ const MyComponent = () => {
   const [value, setValue] = useBehaviorSubject(store.value);
   const [valueObject, setValueObject] = useBehaviorSubject(store.valueObject);
 
-  // using value reads from store
+  // using value, valueObject reads from store
 
   // Setters will update global store & local state
   // setValue("...")
